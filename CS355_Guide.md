@@ -266,14 +266,4 @@ Think of it as **4 main steps in your code**:
 
 The main point is: **your server should handle everything automatically** in the right order, no manual clicks for the second API request.
 
----
 
-## **In short**
-
-1. Make a **Node.js server**.
-2. Show a **form to the user**.
-3. Handle **two API calls in order**.
-4. Send combined results to the user.
-5. Make a **sequence diagram** and a **screencast** explaining your project.
-
----
