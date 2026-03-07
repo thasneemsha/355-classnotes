@@ -253,20 +253,31 @@ Server --> User : Combined HTML page
 
 ## **7. Screencast Tips**
 
-1. Explain **topic input → Open Library API → YouTube API**
-2. Show **console logs** to highlight synchronous behavior
-3. Display results page (books + video links)
-4. Explain how your server handles **requests without third-party modules**
+* Record screen while:
+
+  1. Explaining the **HTML form** **topic input → Open Library API → YouTube API**
+  2. Submitting a topic → server calls Open Library → shows top books
+  3. Server calls YouTube → shows tutorial links
+  4. Show **console logs** to highlight synchronous behavior
+  5. Explain how your server handles **requests without third-party modules**
+
+* Length: 15–20 minutes ideal
+
+* Show code + running app clearly
 
 ---
 
-## ✅ **Why this meets all requirements**
+## **Step 8: Submission**
 
-* **Two APIs** → Open Library (public), YouTube (API key)
-* **Synchronous** → second API waits for first
-* **Server-side only** → minimal JS on front-end
-* **No third-party libraries** → uses only built-in Node modules
-* **Easy to explain in screencast** → linear flow, console logs, clear HTML
-* **Free APIs** → no cost, no OAuth hassles
+* Create directory: `CS355-FP-########` (replace with your Student ID)
 
----
+* Include:
+
+  1. `index.js` (server code)
+  2. `public/index.html` (form)
+  3. Optional `style.css`
+  4. **Sequence diagram PNG**
+  5. Screencast (file or YouTube link)
+
+* Zip the folder → submit on BrightSpace **before May 18 11:59**
+
