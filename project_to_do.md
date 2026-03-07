@@ -1,6 +1,3 @@
-Absolutely! Let’s go **step by step**, from start to finish, so you have a complete roadmap for this project. I’ll make it **super clear for a beginner-friendly workflow**.
-
----
 
 # **CS355 Final Project: Course + Study Resources Mashup**
 
