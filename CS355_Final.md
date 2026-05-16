@@ -67,10 +67,13 @@ Example:
 ```javascript
 const fs = require('fs');
 
-const readStream = fs.createReadStream('input.txt');
-const writeStream = fs.createWriteStream('output.txt');
+const source = fs.createReadStream('input.txt');
+const destination = fs.createWriteStream('output.txt');
 
-readStream.pipe(writeStream);
+souce.on("end", function());
+destination.on("finish", function());
+
+souce.pipe(destination);
 ```
 
 ---
